@@ -1,11 +1,13 @@
-import pandas as pd
-import pymongo
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-from tensorflow.keras.optimizers import Adam
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import precision_score, recall_score, f1_score
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from tensorflow.keras.models import Sequential
+import pymongo
+import pandas as pd
+Optimized Python Script:
 
-# Data Collection
+    # Data Collection
 
 
 def collect_data(file_path):
